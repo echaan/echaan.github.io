@@ -1,0 +1,11 @@
+Display : flex
+Displays an element as a block-level flex container
+--------------------------------------------
+justify-content: space-between;
+The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+Align the flex items at the center of the container
+-------------------------------------------------------
+cursor: pointer;
+The cursor property specifies the mouse cursor to be displayed when pointing over an element
+The cursor is a pointer and indicates a link
+----------------------------------------------

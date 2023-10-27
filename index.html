@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echan</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CDNJS - font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <h2 class="logo"><a href="#home"><img src="img/Logo.png" alt="logo"></a></h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profil">Profile</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#activities">Activities</a></li>
+        </ul>
+        <a href="#contacts" class="btn">Contact</a>
+    </nav>
+
+
+    <!-- hero section -->
+    <div class="hero" id="home">
+
+        <!-- content hero -->
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>M. <span>Eric</span> Chaniago</h1>
+            <h3>I'am a Student of UIN SUSKA Riau</h3>
+            <div class="newslatter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Let's Start">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Profile Section -->
+    <section class="profile" id="profil">
+        <div class="main">
+            <img src="img/fotoProfil.png" alt="fotoProfil">
+            <div class="profile-text">
+                <h2>Profile</h2>
+                <h5>Student of <span>UIN SUSKA Riau</span> </h5>
+                <p>I'm a student of UIN SUSKA Riau. My major is Information System, Faculty of Sains & Technology. I come from Rokan Hulu. This year i'm 19 years old.</p>
+                <button><a href="https://drive.google.com/file/d/1mM1GGh7kkZeOc2Oxw8D4azc_IyPbPATK/view?usp=drive_link">Dwonload CV</a></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <div class="container-gallery" id="gallery">
+        <h1>Gallery</h1>
+        <ul class="gallery">
+            <li>
+                <a href="#gambar-1">
+                    <img src="img/gallery/thumb/lake (2).jpg" alt="lake2">
+                    <span>Danau UNRI</span>
+                </a>
+                <div class="overlay" id="gambar-1">
+                    <a href="#gallery" class="close">x</a>
+                    <a href="#gambar-4" class="previous">prev</a>
+                    <img src="img/gallery/full/lake (2).jpg" alt="lake">
+                    <a href="#gambar-2" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-2">
+                    <img src="img/gallery/thumb/cit.jpg" alt="city">
+                    <span>Tugu Zapin</span>
+                </a>
+                <div class="overlay" id="gambar-2">
+                    <a href="#gallery" class="close">x</a>
+                    <a href="#gambar-1" class="previous">prev</a>
+                    <img src="img/gallery/full/cit.jpg" alt="cit">
+                    <a href="#gambar-3" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-3">
+                    <img src="img/gallery/thumb/beach.jpg" alt="beach">
+                    <span>Pantai</span>
+                </a>
+                <div class="overlay" id="gambar-3">
+                    <a href="#gallery" class="close">x</a>
+                    <a href="#gambar-2" class="previous">prev</a>
+                    <img src="img/gallery/full/beach.jpg" alt="pantai">
+                    <a href="#gambar-4" class="next">next</a>
+                </div>
+            </li>
+            <li>
+                <a href="#gambar-4">
+                    <img src="img/gallery/thumb/rainbow.jpg" alt="rainbow">
+                    <span>Pelangi</span>
+                </a>
+                <div class="overlay" id="gambar-4">
+                    <a href="#gallery" class="close">x</a>
+                    <a href="#gambar-3" class="previous">prev</a>
+                    <img src="img/gallery/full/rainbow.jpg" alt="rainbow">
+                    <a href="#gambar-1" class="next">next</a>
+                </div>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+
+
+    <!--Activities Section -->
+    <div class="activities" id="activities">
+        <div class="title">
+            <h2>Activities</h2>
+        </div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-book" style="color: #3484df;"></i>
+                <h5>Read Novels & Comics</h5>
+                <div class="describe">
+                    <p>I really enjoying read novels and comic, especially novels and comic with fantasy genre. </p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-code" style="color: #3484df;"></i>
+                <h5>Learn Web Dev</h5>
+                <div class="describe">
+                    <p>Currently, I am dedicating a significant amount of time to learning web programming. Right now, I am focused on the Front-End Programming path, which includes HTML and CSS.</p>
+                </div>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-gamepad" style="color: #3484df;"></i>
+                <h5>Play Games</h5>
+                <div class="describe">
+                    <p>In my free time, I sometimes play games like Winning Eleven and Gundam. I really enjoy offline gaming.   </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Contact -->
+    <div class="contact" id="contacts">
+        <p>Let's start a conversation and explore mutual interests</p>
+        <a href="https://bio.link/mericcha" class="button-two">Let's Chat!</a>
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>echan</p>
+        <div class="social">
+            <a href="https://web.facebook.com/m.eric.chaniago.1"><i class="fa-brands fa-facebook" style="color: #3484df;"></i></a>
+            <a href="https://www.instagram.com/m.ericchaniago/"><i class="fa-brands fa-instagram" style="color: #3484df;"></i></a>
+            <a href="https://github.com/echaan"><i class="fa-brands fa-github" style="color: #3484df;"></i></a>
+            <a href="www.linkedin.com/in/m-eric-chaniago-994684232"><i class="fa-brands fa-linkedin" style="color: #3484df;"></i></a>
+        </div>
+        <p class="end">&copy; 2023 By echan</p>
+    </footer>
+</body>
+</html>
